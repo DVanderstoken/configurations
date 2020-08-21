@@ -18,12 +18,6 @@ server:
       protocol-header: x-forwarded-proto
   port: 10200
   
-eureka:
-  client:
-    registerWithEureka: false
-    serviceUrl:
-      defaultZone: http://spring-cloud-netflix-eureka-peer1:10300/eureka/,http://spring-cloud-netflix-eureka-peer2:10301/eureka/
-  
 management:
   endpoints:
     web:
